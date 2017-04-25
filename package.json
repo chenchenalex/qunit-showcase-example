@@ -1,0 +1,21 @@
+{
+    "name": "qunit-js-examples",
+    "version": "1.0.0",
+    "description": "Qunit simple setup example",
+    "main": "index.js",
+    "scripts": {
+        "test": "gulp"
+    },
+    "keywords": [
+        "qunit",
+        "testing"
+    ],
+    "author": "Alex chen",
+    "license": "ISC",
+    "repository": "https://github.com/chenchenalex/qunit-showcase-example",
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-qunit": "^1.5.0",
+        "qunit": "^1.0.0"
+    }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>QUnit testing example</title>
+    <link rel="stylesheet" type="text/css" href="https://code.jquery.com/qunit/qunit-2.1.1.css">
+
+</head>
+
+<body>
+
+    <!--This element will display testing result in browser-->
+    <div id="qunit"></div>
+
+    <!--This is a Hidden div as a container for all the DOM elements for testing -->
+    <div id="qunit-fixture">
+        <div id="userInput">
+            <input type="text" class="name">
+            <input type="text" class="age">
+            <input type="text" class="gender">
+            <input type="text" class="id hidden">
+            <input type="text" class="address">
+        </div>
+    </div>
+
+    <!--libs-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/qunit/qunit-2.1.1.js"></script>
+
+    <!--target files-->
+    <script src="./src/script.js"></script>
+
+    <!--test files-->
+    <script src="./test/test.script.js"></script>
+
+</body>
+
+</html>
