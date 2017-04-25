@@ -8,7 +8,7 @@ QUnit.test('should return empty array if num is undefined: arrayGenerator()', fu
 });
 
 QUnit.test('should return an number only array with values within 1 and 10', function(assert) {
-    var resultArr = arrayGenerator(20);
+    var resultArr = arrayGenerator(10);
 
     assert.equal(resultArr.length, 10, 'Array length equal to 10');
     console.log(resultArr);
